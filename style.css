@@ -1,0 +1,375 @@
+.parallax {
+  /* The image used */
+  background-image: url("background-pict1.jpg");
+
+  /* Set a specific height */
+  min-height: 730px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-centru{
+  text-align: center !important;
+}
+
+.topcenter{
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+    
+.topmargine{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.centru {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  color: white;
+}
+
+.bottomcenter{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ 
+.navfont{
+  color: white;
+}
+
+.iconfont{
+  color: white;
+  margin-left:10px ;
+}
+
+@font-face {
+  font-family: 'My Shine';
+  src: url('MyShine.woff2') format('woff2'),
+      url('MyShine.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yesstea';
+  src: url('Yesstea.woff2') format('woff2'),
+      url('Yesstea.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.logofont {
+  font-family: 'Yesstea';
+  font-size: 50px;
+  color: white
+}
+
+nav{
+    transition: 0.5s ease;
+}
+
+.navfont.scrolled {
+  color: black !important;
+  }
+ 
+nav.scrolled{
+background: white !important;
+}
+
+.navbar-dark.scrolled{
+  color: black !important;
+  background: white !important;
+}
+  
+  .navbar-light{
+  background: transparent !important;
+  }
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link.scrolled {
+  color: black !important;
+  }
+
+.navfont1 {
+color: black;
+}
+
+.container{
+margin-top: 50px;
+/* padding-top: 90px; */
+}
+
+.map{
+margin-top: 100px;
+border:5px violet !important;
+}
+.embed-responsive-item{
+border:5px violet !important
+}
+
+
+.image{
+  width:100%;
+  height:auto;
+  }
+
+#sect-desprenoi3{
+position: relative;
+margin-top: 50px;
+}
+
+.text1{width: 300px;
+}
+
+.butoanemarg{
+margin-right: 50px;
+}
+
+.sect-meniu{
+margin-top: 50px;
+}
+
+.text2{
+margin-top: 50px;
+}
+
+#mic-dejun{
+  margin-top: 50px;
+}
+#pranz{
+  margin-top: 50px;
+}
+#desert{
+  margin-top: 50px;
+}
+#bauturi{
+  margin-top: 50px;
+}
+.row{
+  margin-bottom: 10px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.carousel-cell {
+  border: 1px solid #ccc;
+  width:300px;
+  height:200px;
+  margin: 5px;
+ }
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+.carousel-cell{
+  margin: 50px;
+}
+
+@media only screen and (max-width: 576px){
+.container, .container-sm {
+    max-width: 400px;
+}
+}
+
+@media only screen and (min-width: 768px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+@media only screen and (min-width:1200px) {
+  .responsive {
+    width: 100%;
+  }
+    .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .rezervare{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: lightgray;
+  }
+  
+  .imgfeed{
+    float: right;
+    width:170px;
+    height:170px;
+    border-radius: 50%;
+  }
+  
+  .container2 {
+    position: relative;
+    width: 100%; /* Maximum width */
+  }
+  
+  .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    color:white; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 50px; /* Some padding */
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    -ms-flex: 33%; /* IE10 */
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+  }
+  
+  .galimg {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  .navbar {
+    min-height: 80px;
+  }
+  
+  .navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+  }
+  
+  .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+  }
+    /* If the screen size is 768px wide or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 768px) {
+  .logofont {
+    font-size: 30px;
+  }
+}
+
+.imgcutext{
+  background-image: url(5.jpg) ;
+  min-height: 350px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  .parallax2 {
+    /* The image used */
+    background-image: url("restaurant.jpeg");
+  
+    /* Set a specific height */
+    min-height: 730px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .txt{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+  }
+  .htext{
+    text-align: center;
+  }
+  .orange{
+    color: orange !important;
+  }
+  .margin-toptext{
+    margin-top: 15px;
+  }
+  .gray{
+    color: lightgray !important;
+  }
+
+
+  * Modal Content */
+  
+  .modal-content {
+    background: none;
+    border: none;
+  }
+  .modal-header {
+    border:none;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #080000;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #galerie{
+    scroll-margin-top: 80px;
+  }
+  #evenimente{
+    scroll-margin-top: 80px;
+  }
+  #contact{
+    scroll-margin-top: 80px;
+  }
+  #reservation{
+    scroll-margin-top: 80px;
+  }
